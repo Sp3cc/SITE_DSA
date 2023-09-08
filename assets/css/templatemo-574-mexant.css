@@ -397,8 +397,9 @@ header
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  justify-content: space-between;
-  padding: 30px 30% 30px 30%;
+  /* gap: 350px; */
+  justify-content: space-around !important;
+  /* padding: 30px 30% 30px 30%; */
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu p{
@@ -463,8 +464,9 @@ header
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
-    padding: 30px 30% 30px 30%;
+    justify-content: space-around !important;
+    /* justify-content: space-between; */
+    /* padding: 30px 30% 30px 30%; */
   }
   
   .header-area .main-nav .nav li.has-sub ul.sub-menu p{
