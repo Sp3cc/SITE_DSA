@@ -1,0 +1,44 @@
+main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total{
+    max-width: 80%;
+}
+
+
+
+.ulList>li>.imgH3>img{
+    max-width: 50px;
+}
+
+/* img{
+    width: 50px;
+} */
+
+.imgH3{
+    display: flex;
+    gap: 10px;
+}
+.ulList>li>p{
+    margin-left: 4rem;
+}
+
+.about{
+    margin-top: 3rem;
+}
+
+.about>p{
+    line-height: 200%;
+    margin-bottom: 3rem;
+}
+
+.about>h2{
+    font-weight: bolder;
+    color:  blue;
+    font-size: 3rem;
+}
+

@@ -1,0 +1,183 @@
+body{
+    background-color: gray !important;
+}
+html{
+    background-color: gray;
+}
+.first{
+    /* display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: gray;
+    flex-direction: column; */
+}
+
+.first>.total>img{
+    width: 40%;
+}
+.total{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 10rem;
+}
+
+.sobre{
+width: 30%;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+background-color: gray;
+flex-direction: column;
+}
+
+.sobre>button{
+    background-color: rgb(79, 79, 214);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+}
+
+.sobre>button:hover{
+    background-color: rgb(71, 71, 212);
+}
+
+.ter{
+display: flex;
+width: 100vw;
+align-items: center;
+justify-content: center;
+gap: 10rem;
+flex-direction: column;
+}
+
+.divCards{
+    display: flex;
+    gap: 10rem;
+    margin-bottom: 3rem;
+}
+
+.card1{
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #1b63e7;;
+    padding-top: 20px;
+}
+
+.card1>h3{
+    color: #1b63e7;
+}
+
+.card2{
+    background-color: #1b63e7;
+    color: white;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+.card2>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+.card2>h3{
+    color: white;
+}
+
+.card1>ul{
+    list-style-type: circle;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    font-weight: 400;
+}
+.card2>ul{
+    list-style-type: circle;
+    padding-left: 20px
+}
+
+.card1>ul>li{
+    list-style-position: inside;
+    list-style: disc;
+}
+
+.card2>ul>li{
+    list-style-position: inside;
+    list-style: disc;
+}
+
+.modalCotainer{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(128, 128, 128, 0.644);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.modalContent>form{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    
+}
+
+.modalContent>form>input{
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.modalContent>header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+}
+
+.modalContent>header>span{
+    cursor: pointer;
+}
+textarea{
+    margin-bottom: 5px;
+}
+
+form>button{
+    border: none;
+    background-color: #15A512;
+    color: white;
+    height: 40px;
+}

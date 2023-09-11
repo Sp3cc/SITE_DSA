@@ -1,0 +1,55 @@
+.modalCotainer{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(128, 128, 128, 0.644);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.modalContent{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.modalContent>form{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    
+}
+
+.modalContent>form>input{
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.modalContent>header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+}
+
+.modalContent>header>span{
+    cursor: pointer;
+}
+textarea{
+    margin-bottom: 5px;
+}
+
+form>button{
+    border: none;
+    background-color: #15A512;
+    color: white;
+    height: 40px;
+}
