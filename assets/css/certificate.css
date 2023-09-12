@@ -1,0 +1,82 @@
+.header{
+    margin-top: 5rem;
+    height: 120px;
+    display: flex;
+    background-image: url("../images/tec.jpg");
+    background-position: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>h2{
+    font-size: 42px;
+    font-weight: bolder;
+    color: white;
+}
+
+.mid{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mid>.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid>.logo>.span{
+    background-color: #214285;
+    height: 10px;
+    width: 50%;
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.li{
+    color: white;
+    height: 350px;
+    width: 325px;
+    background-color: #214285;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 13px;
+    transition: transform 0.3s;
+    padding-top: 25px;
+}
+
+.li>p{
+    color: white;
+}
+
+.li>h3{
+    color: white;
+}
+
+.li>button{
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: #2e73fc;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.li:hover {
+    transform: scale(1.1);
+}
+
+.li>img{
+    width: 180px;
+}
